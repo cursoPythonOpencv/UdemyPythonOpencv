@@ -1,0 +1,1 @@
+https://github.com/smarthomefans/darknet-test/blob/master/yolov3-tiny.weights
