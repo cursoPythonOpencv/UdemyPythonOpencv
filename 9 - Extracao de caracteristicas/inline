@@ -1,0 +1,23 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import cv2 as cv\n",
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "%notebook inline\n",
+    "\n",
+    "full = cv.imread(\"ex_template_matching.jpg\")\n",
+    "full =  cv.cvtColor(full, cv.COLOR_BGR2RGB)\n",
+    "plt.imshow(full)"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
