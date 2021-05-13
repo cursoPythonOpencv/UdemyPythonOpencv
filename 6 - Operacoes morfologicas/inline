@@ -1,0 +1,34 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import cv2\n",
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "%notebook inline\n",
+    "\n",
+    "img1 = cv2.imread('moeda.png')\n",
+    "img2 = cv2.imread('esqueleto.tif')\n",
+    "\n",
+    "fig = plt.figure(figsize=(15,15))\n",
+    "\n",
+    "ax1 = fig.add_subplot(221)\n",
+    "plt.imshow(img1)\n",
+    "plt.title(\"Imagem Original\")\n",
+    "\n",
+    "ax2 = fig.add_subplot(222)\n",
+    "plt.imshow(img2)\n",
+    "plt.title(\"Imagem Original\")\n",
+    "\n",
+    "plt.show()"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
